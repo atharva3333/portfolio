@@ -1,0 +1,25 @@
+[
+    {
+      "title": "Wowwill.in - A online will making website",
+      "imagePath": "assets/wowwill.png",
+      "link":"https://wowwill.in/"
+    },
+    {
+      "title": "JobQuest",
+      "imagePath": "assets/Jobsearch.png",
+      "link":"https://github.com/atharva3333/buidl"
+    },
+    {
+      "title": "Mind Mingle - Quiz Application",
+      "imagePath": "assets/quiz.png",
+      "link":"https://github.com/atharva3333/quiz-app"
+    },
+    {
+      "title": "QuickQuery - A Google Search Clone",
+      "imagePath": "/assets/Search.png",
+      "link":"https://github.com/atharva3333/Google-Clone"
+    }
+    
+    
+]
+  
