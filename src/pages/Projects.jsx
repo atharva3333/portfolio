@@ -14,7 +14,7 @@ const Projects = () => {
           <div key={index}>
           <NavLink to={project.link}>
             <img
-              className="sm:w-[85%] w-full mx-auto rounded-3xl mb-24 hover:scale-105 duration-300 ease-in-out"
+              className="sm:w-[85%] w-full mx-auto rounded-3xl sm:mb-24 mb-12 hover:scale-105 duration-300 ease-in-out"
               src={project.imagePath}
               alt={project.imagePath}
             />
