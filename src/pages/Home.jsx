@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom";
 import Typewriter from "typewriter-effect";
+
 const Home = () => {
   return (
     <div className="container lg:px-[20rem] mx-auto">
       <div className="flex items-center justify-center h-[80vh]">
         <div>
-          <div className="border-b-8 border-y-[#5EEAD4] w-24 mb-12"></div>
+          <div className="border-b-8 border-y-[#5EEAD4] w-24 sm:mb-12 mb-6"></div>
           <h1 className="sm:text-7xl text-5xl font-bold leading-relaxed">
             👋Hi, I&apos;m{" "}
             <span className="text-[#5EEAD4]">
@@ -18,7 +19,7 @@ const Home = () => {
               />
             </span>
           </h1>
-          <p className="mt-8 text-2xl max-w-[700px] text-slate-400 leading-loose tracking-wider">
+          <p className="mt-8 text-2xl max-w-[700px] text-slate-400 text-justify sm:leading-loose tracking-wider">
             I&rsquo;m a Full Stack Developer passionate about crafting robust
             and innovative solutions across the web development spectrum
           </p>
@@ -31,6 +32,7 @@ const Home = () => {
           
         </div>
       </div>
+      
     </div>
   );
 };
