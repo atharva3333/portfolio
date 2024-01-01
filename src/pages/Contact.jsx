@@ -43,7 +43,7 @@ const Contact = () => {
         reverseOrder={false}
       />
       <div className="border-b-8 border-y-[#5EEAD4] w-24 my-12"></div>
-      <h1 className="text-7xl font-bold my-5">📧Contact me</h1>
+      <h1 className="sm:text-7xl text-5xl font-bold my-5">📧Contact me</h1>
       <div className="my-auto mx-auto px-5 py-8 rounded-3xl">
         <form className="flex flex-col gap-4" ref={form} onSubmit={sendEmail}>
           <label

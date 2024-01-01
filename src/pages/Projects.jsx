@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="container mx-auto">
       <div>
         <div className="border-b-8 border-y-[#5EEAD4] w-24 my-12"></div>
-        <h1 className="text-7xl font-bold ">🎨My Portfolio</h1>
+        <h1 className="sm:text-7xl text-5xl font-bold ">🎨My Portfolio</h1>
       </div>
 
       <div className="mt-24">

@@ -8,7 +8,7 @@ const About = () => {
         <img className="rounded lg:w-[35%]" src={Atharva} alt="Atharva-img" />
         <div>
           <div className="border-b-8 border-y-[#5EEAD4] w-24 mb-12"></div>
-          <h1 className="text-7xl font-bold ">👀About me</h1>
+          <h1 className="sm:text-7xl text-5xl font-bold ">👀About me</h1>
           <p className="max-w-[600px] text-justify mt-12 tracking-wider leading-relaxed text-2xl text-slate-400">
             Yo, I&apos;m a Engineering undergrad from India . I&apos;m all about
             codes, chess, and chilling with my dog, Mani! I&apos;m into stocks
