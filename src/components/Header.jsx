@@ -43,6 +43,9 @@ export default function Header() {
                 <a href="/about">About</a>
               </li>
               <li className="border-b border-gray-400 my-8 text-black uppercase">
+                <a href="/experience">Experience</a>
+              </li>
+              <li className="border-b border-gray-400 my-8 text-black uppercase">
                 <a href="/projects">Portfolio</a>
               </li>
               <li className="border-b border-gray-400 my-8 text-black uppercase">
@@ -55,6 +58,9 @@ export default function Header() {
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
           <li className=" text-slate-300 text-xl">
             <a href="/about">About</a>
+          </li>
+          <li className=" text-slate-300 text-xl">
+            <a href="/experience">Experience</a>
           </li>
           <li className=" text-slate-300 text-xl">
             <a href="/projects">Portfolio</a>

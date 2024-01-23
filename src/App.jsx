@@ -6,6 +6,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import Footer from './pages/Footer'
+import Experience from './pages/Experience'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/projects' element={<Projects/>}/>
+        <Route path='/experience' element={<Experience/>}/>
       </Routes>
     </BrowserRouter>
     <Footer/>
