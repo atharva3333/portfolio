@@ -19,7 +19,7 @@ const Home = () => {
               />
             </span>
           </h1>
-          <p className="mt-8 text-2xl max-w-[700px] text-slate-400 text-justify sm:leading-loose tracking-wider">
+          <p className="mt-8 text-2xl max-w-[700px] text-slate-400 text-justify sm:leading-relaxed tracking-wider">
             I&rsquo;m a Full Stack Developer passionate about crafting robust
             and innovative solutions across the web development spectrum
           </p>

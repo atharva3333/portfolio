@@ -17,7 +17,7 @@ const About = () => {
             Coding, Meditating, chess, and a dash of anime – that&apos;s my kind
             of vibe! 🚀
           </p>
-          <a target="blank" href="https://atharva3333.github.io/Atharva-Portfolio/resume/Atharva_Deshpande_Resume.pdf" className="block w-full h-full">
+          <a target="blank" href="https://drive.google.com/file/d/1KjRuqVF-gCZjlkpIaMtPrQVUFwMyfl4k/view?usp=sharing" className="block w-full h-full">
             <button className="relative bg-[#5EEAD4] bg-opacity-10 text-[#5EEAD4] mt-12 font-bold px-14 py-6 rounded-[20px] text-xl overflow-hidden hover:scale-110 transition duration-300 ease-in-out hover:shadow-md focus:outline-none focus:ring focus:border-blue-300">
             resumé
               </button>
