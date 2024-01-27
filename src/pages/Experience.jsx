@@ -4,13 +4,13 @@ const Experience = () => {
         {
             title: "Full Stack Developer Intern",
             company: "wowwill.in",
-            year: "2022 - Present",
+            year: "Mar 23 - Present",
             description: "Designed frontend screens using React and Tailwind CSS, ensuring a visually appealing and responsive user interface. Utilized the PERN stack (PostgreSQL, Express.js, React, Node.js) hosted on Azure for web development. Spearheaded the development of a comprehensive website capable of collecting user information and generating personalized PDF wills. Assumed full responsibility for every aspect of the user interface.",
           },
           {
             title: "Full Stack Developer Intern",
             company: "dframe.org",
-            year: "2021 - 2022",
+            year: "Dec 2022 - Mar 2023",
             description: "Leveraged React, TypeScript, and Material-UI to create dynamic user interfaces, enhance responsiveness, and streamline data input during the internship. Worked with the MERN stack (MongoDB, Express.js, React, Node.js) hosted on AWS. Developed an efficient KYC verification system for data and image management. Created an interface to connect web3 wallet Metamask using the WalletConnect library.",
           },
     ];
