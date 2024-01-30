@@ -19,21 +19,21 @@ const Experience = () => {
       <div className="container mx-auto">
         <div>
           <div className="border-b-8 border-y-[#5EEAD4] w-24 my-12"></div>
-          <h1 className="sm:text-7xl text-5xl font-bold ">💪 Experience</h1>
+          <h1 className="sm:text-7xl text-5xl font-bold mb-20">💪 Experience</h1>
           
           
           {experiences.map((experience, index) => (
-            <div key={index} className="my-8 bg-white max-w-[600px] mx-auto text-black p-8 rounded-xl">
-            <div className="flex items-center gap-8">
+            <div key={index} className="my-12 bg-[#5EEAD4] bg-opacity-10 text-[#5EEAD4] max-w-[800px] mx-auto p-8 rounded-xl">
+            <div className="flex items-center justify-between gap-8">
             <h2 className="text-3xl font-semibold">{experience.title}</h2>
             <div>
-            <p className="text-gray-600">{experience.company}</p>
-              <p className="text-gray-500">{experience.year}</p>
+            <p className="font-bold">{experience.company}</p>
+              <p className="font-bold">{experience.year}</p>
             </div>
               
             </div>
               
-              <p className="mt-2">{experience.description}</p>
+              <p className="mt-2 text-slate-300">{experience.description}</p>
             </div>
           ))}
         </div>
