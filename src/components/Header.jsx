@@ -4,7 +4,7 @@ export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
   return (
-    <div className="container md:mt-8 mx-auto">
+    <div className="container md:mt-3 mx-auto">
     <div className="flex items-center justify-between py-8">
       <a href="/">
         <h1 className="text-3xl font-bold">Atharva Deshpande</h1>

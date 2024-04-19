@@ -1,33 +1,34 @@
 [
     {
-      "title": "Wowwill.in - A online will making website",
+      "title": "Wowwill",
+      "description": "WowWill is an online platform that enables users to create their wills conveniently and securely.",
       "imagePath": "assets/wowwill.png",
-      "link":"https://wowwill.in/"
+      "link":"https://wowwilltesting.azurewebsites.net/"
     },
     {
       "title": "JobQuest",
+      "description": "JobQuest is a mobile application that helps users search for relevant and fresh job openings.",
       "imagePath": "assets/Jobsearch.png",
       "link":"https://github.com/atharva3333/Job_search_Native_app"
     },
     {
-      "title": "Netflix Clone",
-      "imagePath": "assets/Netflix.gif",
-      "link":"https://github.com/atharva3333/netflix-clone"
+      "title": "QuickQuery",
+      "description": "A simple yet effective Google search clone designed for effortless browsing",
+      "imagePath": "/assets/Search.png",
+      "link":"https://github.com/atharva3333/Google-Clone"
     },
     {
-      "title": "Buidl",
-      "imagePath": "assets/buidl.png",
-      "link":"https://github.com/atharva3333/buidl"
-    },
-    {
-      "title": "Mind Mingle - Quiz Application",
+      "title": "Mind Mingle",
+      "description": "An app where users engage with questions, receive instant scoring, and enjoy an interactive learning journey.",
       "imagePath": "assets/quiz.png",
       "link":"https://github.com/atharva3333/quiz-app"
     },
+    
     {
-      "title": "QuickQuery - A Google Search Clone",
-      "imagePath": "/assets/Search.png",
-      "link":"https://github.com/atharva3333/Google-Clone"
+      "title": "Buidl",
+      "description": "Landing Page Design",
+      "imagePath": "assets/buidl.png",
+      "link":"https://github.com/atharva3333/buidl"
     }
     
     
