@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import projectData from "../data.json";
+import designData from "../design.json";
 
 const Projects = () => {
   return (
@@ -27,6 +28,19 @@ const Projects = () => {
             </NavLink>
           </div>
         ))}
+      </div>
+
+      <div className="mt-24">
+      <h1 className="font-black sm:text-7xl text-5xl mb-8">Logo Designs</h1>
+      {designData.map((design, index) => (
+        <div key={index}>
+          
+            <img
+              className="sm:w-[600px] sm:mt-4 mt-8 sm:px-0 px-8 w-full mx-auto rounded-3xl sm:mb-24 mb-12 hover:scale-105 duration-300 ease-in-out"
+              src={design.imagePath}
+            />
+        </div>
+      ))}
       </div>
     </div>
   );
