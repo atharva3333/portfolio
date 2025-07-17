@@ -6,6 +6,12 @@
       "link":"https://wowwill.in/"
     },
     {
+      "title": "PlanPilot",
+      "description": "A local AI agent that uses LLMs to plan personalized trips, powered by LangChain and Ollama.",
+      "imagePath": "assets/planpilot.jpg",
+      "link":"https://github.com/atharva3333/planpilot"
+    },
+    {
       "title": "JobQuest",
       "description": "JobQuest is a mobile application that helps users search for relevant and fresh job openings.",
       "videoPath": "assets/jobapp.mp4",
