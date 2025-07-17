@@ -20,12 +20,24 @@ const Projects = () => {
           </div>
           
           <NavLink to={project.link}>
-            <img
-              className="sm:w-[600px] sm:mt-0 mt-8 sm:px-0 px-8 w-full mx-auto rounded-3xl sm:mb-24 mb-12 hover:scale-105 duration-300 ease-in-out"
-              src={project.imagePath}
-              alt={project.imagePath}
-            />
-            </NavLink>
+  {project.videoPath ? (
+    <video
+      className="sm:w-[600px] sm:mt-0 mt-8 sm:px-0 px-8 w-full mx-auto rounded-3xl sm:mb-24 mb-12 hover:scale-105 duration-300 ease-in-out"
+      src={project.videoPath}
+      autoPlay
+      loop
+      muted
+      playsInline
+    />
+  ) : (
+    <img
+      className="sm:w-[600px] sm:mt-0 mt-8 sm:px-0 px-8 w-full mx-auto rounded-3xl sm:mb-24 mb-12 hover:scale-105 duration-300 ease-in-out"
+      src={project.imagePath}
+      alt={project.imagePath}
+    />
+  )}
+</NavLink>
+
           </div>
         ))}
       </div>
